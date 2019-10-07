@@ -2,9 +2,9 @@
 
 Polls is a simple API allowing consumers to view polls and vote in them.
 
-## Questions Collection [/questions]
+## Grades Collection [/questions]
 
-### List All Questions [GET]
+### List All Grades [GET]
 
 + Response 200 ()
 
