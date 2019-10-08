@@ -1,5 +1,11 @@
+sudo: false
 language: node_js
+node_js:
+  - "stable"
+cache:
+  directories:
+    - "node_modules"
 before_install:
-  - npm install dredd@12.1.0 --global
+  - npm install dredd@x.x.x --no-optional --global
 before_script:
-  - dredd
+  - dredd swagger.yaml http://127.0.0.1:8080
