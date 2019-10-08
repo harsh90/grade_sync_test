@@ -7,7 +7,11 @@ before_install:
   - npm install dredd@12.1.0 --global
   - npm install dredd@12.1.0 --global
   - npm install dredd@12.1.0 --global
+  - npm install dredd@12.1.0 --global
+  - npm install dredd@12.1.0 --global
 before_script:
+  - dredd
+  - dredd
   - dredd
   - dredd
   - dredd
