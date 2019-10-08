@@ -8,4 +8,4 @@ cache:
 before_install:
   - npm install dredd@x.x.x --no-optional --global
 before_script:
-  - dredd swagger.yaml http://127.0.0.1:8080
+  - dredd swagger.yaml
