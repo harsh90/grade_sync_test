@@ -7,7 +7,7 @@ dry-run: null
 hookfiles: null
 language: nodejs
 require: null
-server: java -jar target/demo-0.0.1-SNAPSHOT.jar
+server: 'mvn spring-boot:run'
 server-wait: 3
 init: false
 names: false
